@@ -1,5 +1,5 @@
 {
-  "name": "node-brenda",
+  "name": "brenda",
   "version": "0.0.1",
   "description": "A simple node cli for brenda (the aws blender farm).",
   "main": "index.js",
@@ -12,6 +12,9 @@
     "aws",
     "render"
   ],
+  "dependencies": {
+    "commander": "latest"
+  },
   "author": "Daniel Mahon <daniel@mahonstudios.com>",
   "license": "MIT"
 }
