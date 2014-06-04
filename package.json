@@ -1,20 +1,51 @@
 {
   "name": "brenda",
-  "version": "0.0.2",
   "description": "A simple node cli for brenda (the aws blender farm).",
+  "version": "0.0.2",
   "main": "index.js",
+  "homepage": "https://github.com/danielmahon/node-brenda",
+  "author": {
+    "name": "Daniel Mahon",
+    "email": "danielmahon@users.noreply.github.com",
+    "url": "https://github.com/danielmahon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:danielmahon/node-brenda.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielmahon/node-brenda/issues"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
-  "keywords": [
-    "brenda",
-    "blender",
-    "aws",
-    "render"
+  "licenses": [
+    {
+      "type": "MIT"
+    }
   ],
-  "dependencies": {
-    "commander": "latest"
+  "preferGlobal": true,
+  "bin": {
+    "brenda": "./bin/brenda"
   },
-  "author": "Daniel Mahon <daniel@mahonstudios.com>",
-  "license": "MIT"
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "commander": "^2.2.0",
+    "moment": "^2.6.0",
+    "colors": "^0.6.2"
+  },
+"keywords": [
+  "brenda",
+  "blender",
+  "aws",
+  "render"
+],
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "gulp": "^3.6.1",
+    "gulp-coffee": "^1.4.2",
+    "gulp-plumber": "^0.6.1"
+  }
 }
