@@ -1,6 +1,6 @@
 {
   "name": "brenda",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple node cli for brenda (the aws blender farm).",
   "main": "index.js",
   "scripts": {
