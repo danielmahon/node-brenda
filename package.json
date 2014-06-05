@@ -45,9 +45,9 @@
     "render"
   ],
   "devDependencies": {
-    "mocha": "^1.18.2",
-    "gulp": "^3.6.1",
-    "gulp-coffee": "^1.4.2",
-    "gulp-plumber": "^0.6.1"
+    "grunt": "^0.4.5",
+    "grunt-verb": "^0.2.4",
+    "load-grunt-tasks": "^0.4.0",
+    "mocha": "^1.18.2"
   }
 }
