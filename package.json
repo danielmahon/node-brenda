@@ -32,16 +32,18 @@
     "node": ">= 0.10.0"
   },
   "dependencies": {
+    "async": "^0.9.0",
+    "colors": "^0.6.2",
     "commander": "^2.2.0",
     "moment": "^2.6.0",
-    "colors": "^0.6.2"
+    "win-fork": "^1.1.1"
   },
-"keywords": [
-  "brenda",
-  "blender",
-  "aws",
-  "render"
-],
+  "keywords": [
+    "brenda",
+    "blender",
+    "aws",
+    "render"
+  ],
   "devDependencies": {
     "mocha": "^1.18.2",
     "gulp": "^3.6.1",
