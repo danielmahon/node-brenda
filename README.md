@@ -42,6 +42,12 @@ This will run the underlying `brenda-work status` and `brenda-run status` and di
 `brenda render <file|folder>` (wip)
 
 
+## Todo
++ Integrate the rest of the original Brenda commands
++ Create automated workflow for rendering
++ Remove original library and python dependencies and re-write in node.js only?!
+
+
 ## Contributing
 Find a bug? Have a feature request? Please [create an Issue](https://github.com/danielmahon/node-brenda/issues).
 

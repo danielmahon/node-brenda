@@ -18,6 +18,9 @@
 ## Usage Examples
 {%= docs("examples") %}
 
+## Todo
+{%= docs("todo") %}
+
 ## Contributing
 {%= contrib("contributing") %}
 
