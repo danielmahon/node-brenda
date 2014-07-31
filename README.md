@@ -16,6 +16,8 @@ Follow the instructions at [https://github.com/jamesyonan/brenda](https://github
 
 Once you have the *awesome* jamesyonan's tool working, you may continue... at your own risk.
 
+#### Install `tar`
+
 
 ## Getting Started
 **UNSTABLE - This project is a work-in-progress!!**

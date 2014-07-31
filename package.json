@@ -34,14 +34,17 @@
   "dependencies": {
     "async": "^0.9.0",
     "colors": "^0.6.2",
-    "commander": "^2.2.0",
-    "moment": "^2.6.0",
+    "commander": "^2.3.0",
+    "moment": "^2.8.0",
+    "prompt": "^0.2.13",
     "win-fork": "^1.1.1"
   },
   "keywords": [
     "brenda",
     "blender",
     "aws",
+    "ec2",
+    "3D",
     "render"
   ],
   "devDependencies": {
